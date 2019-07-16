@@ -1,6 +1,7 @@
 def roll_call_dwarves(array)
+  def sent = ""
   array.each_with_index do|dwarf|
-  sent = index + " " + array[index]
+  sent = sent + index + " " + array[index]
   end
   puts sent
 end
